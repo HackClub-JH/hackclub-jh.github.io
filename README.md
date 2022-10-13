@@ -1,7 +1,7 @@
 <p align=center><img src="https://github.com/hackclubiter/cdn/blob/main/logos/favicon/android-chrome-192x192.png" width="70px"></p>
-<h1 align=center>🔥 Hack Club ITER 🔥</h1>
+<h1 align=center>🔥 Hack Club JH 🔥</h1>
 
-<p align=center><i>✨The Official Website of Hack Club ITER.✨</i></p>
+<p align=center><i>✨The Official Website of Hack Club JH.✨</i></p>
 
 <p align=center><a href="https://iter.hackclub.com"><img src="https://user-images.githubusercontent.com/53933493/132178282-dac3d58e-e9ad-4163-8420-1b320b8433b6.png"></a></p>
 
