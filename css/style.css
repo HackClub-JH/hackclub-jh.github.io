@@ -259,8 +259,9 @@ table td {
   -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
   transition: all 0.3s ease-in-out, transform 0.3s ease-in-out;
-  box-shadow: 0 0 3pt 3pt lavender;
+  box-shadow: 0 0 10pt 1pt rgb(10 10 15);
   background-position: 50% -180%;
+  background-size: cover;
 }
 .ws-box a {
   width: 100%;
