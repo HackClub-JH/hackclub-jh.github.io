@@ -262,6 +262,7 @@ table td {
   box-shadow: 0 0 10pt 1pt rgb(10 10 15);
   background-position: 50% -180%;
   background-size: cover;
+  overflow: hidden;
 }
 .ws-box a {
   width: 100%;
@@ -272,20 +273,27 @@ table td {
   text-decoration: none;
 }
 
-.ws-box:hover {
+/* .ws-box:hover {
   transform: scale(1.05);
-}
+} */
 
 .ws-info {
-  background-color: white;
   width: 100%;
-  height: 32%;
-  border-bottom: 1px solid lavender;
-  border-radius: 10px 10px 0 0;
+  height: 100%;
+  padding: 10px;
   float: left;
+  flex-direction: column;
+  background-color: #212529e3;
+  position: relative;
+  right: 100%;
+  transition: all .3s ease-in-out ;
+}
+.ws-box:hover .ws-info{
+  display: flex;
+  right:0%;
 }
 .ws-info h3 {
-  color: #1f2d3d;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 800;
   margin-top: -5px;

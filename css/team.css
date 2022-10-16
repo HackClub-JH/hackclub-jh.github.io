@@ -36,10 +36,10 @@
 }
 
 .css-v1cp1g {
-  width: 120px;
-  border-radius: 200px;
+  width: 250px;
   margin-top: 32px;
-  border: 2px solid white;
+  pointer-events: none;
+  filter: drop-shadow(2px 5px 15px rgba(34, 34, 34, 0.7));
 }
 .css-fzwid6 {
   width: 100%;
@@ -49,11 +49,13 @@
   color: #ffffff;
   margin-bottom: 0;
 }
+h1.css-qgkf1l{
+  font-size: 2rem;
+  margin-top: 1rem;
+}
 .css-14atmpy {
   color: #ffffff;
-  margin-top: 0;
-  margin-left: 8px;
-  margin-right: 8px;
+  margin: 10px;
   font-size: 1.2rem;
 }
 
@@ -111,7 +113,7 @@
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
@@ -137,15 +139,15 @@
 
 .css-8soujw {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(1, 1fr);
+  /* grid-gap: 20px; */
+  grid-template-columns: repeat(2, 1fr);
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
 }
 
 @media screen and (min-width: 30em) {
@@ -168,7 +170,7 @@
 
 @media screen and (min-width: 80em) {
   .css-8soujw {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -200,9 +202,3 @@
   padding-bottom: 16px;
   transition: 0.5s ease-out;
 }
-
-
-
-
-
-
