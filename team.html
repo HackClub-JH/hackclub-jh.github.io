@@ -44,25 +44,25 @@
 			</div>
 		</div>
 		<script>
-		const navToggler = document.querySelector('.nav-toggler');
-		const navMenu = document.querySelector('.site-navbar ul');
-		const navLinks = document.querySelectorAll('.site-navbar a');
-		const header = document.querySelector('.site-header');
+		const navToggler = document.querySelector('.nav-toggler')
+		const navMenu = document.querySelector('.site-navbar ul')
+		const navLinks = document.querySelectorAll('.site-navbar a')
+		const header = document.querySelector('.site-header')
 		allEventListners();
 
-		function allEventListners() {
-			navToggler.addEventListener('click', togglerClick);
-			navLinks.forEach(elem => elem.addEventListener('click', navLinkClick));
+		allEventListners = () => {
+			navToggler.addEventListener('click', togglerClick)
+			navLinks.forEach(elem => elem.addEventListener('click', navLinkClick))
 		}
 
-		function togglerClick() {
+		togglerClick = () => {
 			navToggler.classList.toggle('toggler-open');
-			navMenu.classList.toggle('open');
+			navMenu.classList.toggle('open')
 		}
 
-		function navLinkClick() {
-			if(navMenu.classList.contains('open')) {
-				navToggler.click();
+		navLinkClick = () => {
+			if (navMenu.classList.contains('open')) {
+				navToggler.click()
 			}
 		}
 		</script>
