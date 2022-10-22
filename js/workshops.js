@@ -11,7 +11,7 @@ workshopDisplay = (workshop) => {
             </a>
             </div>
         </li>
-        `;
+        `
     }
   
     document.getElementById('upcoming').innerHTML = `
@@ -20,7 +20,7 @@ workshopDisplay = (workshop) => {
 `
 
 //Past Workshops
-
+    
 pastWorkshops = (workshop) => {
     return `
         <li>
