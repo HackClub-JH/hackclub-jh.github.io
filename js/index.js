@@ -22,12 +22,12 @@
                 countdown = document.getElementById("countdown"),
                 content = document.getElementById("content");
   
-            headline.innerText = "We are here!!!";
-            countdown.style.display = "none";
-            content.style.display = "block";
+            headline.innerText = "We are here!!!"
+            countdown.style.display = "none"
+            content.style.display = "block"
   
-            clearInterval(x);
+            clearInterval(x)
           }
           //seconds
         }, 0)
-    }());
+    }())
