@@ -54,15 +54,15 @@
 	</div>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 	<script id="rendered-js">
-	jQuery(document).ready(function() {
-		jQuery('.toast-close').click(function(e) {
-			e.preventDefault();
-			var parent = $(this).parent('.toast');
-			parent.fadeOut("slow", function() {
-				$(this).remove();
-			});
-		});
-	});
+	jQuery(document).ready(() => {
+		jQuery('.toast-close').click((e) => {
+			e.preventDefault()
+			var parent = $(this).parent('.toast')
+			parent.fadeOut("slow", () => {
+				$(this).remove()
+			})
+		})
+	})
 	</script>
   </main>
  
@@ -84,25 +84,25 @@
 			</div>
 		</div>
 		<script>
-		const navToggler = document.querySelector('.nav-toggler');
-		const navMenu = document.querySelector('.site-navbar ul');
-		const navLinks = document.querySelectorAll('.site-navbar a');
-		const header = document.querySelector('.site-header');
-		allEventListners();
+		const navToggler = document.querySelector('.nav-toggler')
+		const navMenu = document.querySelector('.site-navbar ul')
+		const navLinks = document.querySelectorAll('.site-navbar a')
+		const header = document.querySelector('.site-header')
+		allEventListners()
 
-		function allEventListners() {
+		allEventListners = () => {
 			navToggler.addEventListener('click', togglerClick);
 			navLinks.forEach(elem => elem.addEventListener('click', navLinkClick));
 		}
 
-		function togglerClick() {
+		togglerClick = () => {
 			navToggler.classList.toggle('toggler-open');
 			navMenu.classList.toggle('open');
 		}
 
-		function navLinkClick() {
-			if(navMenu.classList.contains('open')) {
-				navToggler.click();
+		navLinkClick = () => {
+			if (navMenu.classList.contains('open')) {
+				navToggler.click()
 			}
 		}
 		</script>
@@ -254,7 +254,7 @@
 				</div>
 			</div>
 		</div>
-		<p style="display: flex; justify-content: center; padding-bottom: 1%; font-size: 15px;">&#169 Hack Club JH 2021 </p>
+		<p style="display: flex; justify-content: center; padding-bottom: 1%; font-size: 15px;">&#169 Hack Club JH 2022</p>
   </footer>
  
   <!-- Lottie File Script -->

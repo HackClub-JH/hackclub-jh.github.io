@@ -1,4 +1,4 @@
-function workshopDisplay(workshop) {
+workshopDisplay = (workshop) => {
     return `
         <li>
             <div class="ws-box" style="background-image: url('${workshop.image}');">
@@ -11,17 +11,17 @@ function workshopDisplay(workshop) {
             </a>
             </div>
         </li>
-        `;
+        `
     }
   
-    document.getElementById("upcoming").innerHTML = `
-    ${workshopData.map(workshopDisplay).join("")}
+    document.getElementById('upcoming').innerHTML = `
+    ${workshopData.map(workshopDisplay).join('')}
     <p>There are ${workshopData.length} upcoming workshops.</p>
-`;
+`
 
 //Past Workshops
-
-function pastWorkshops(workshop) {
+    
+pastWorkshops = (workshop) => {
     return `
         <li>
             <div class="ws-box" style="background-image: url('${workshop.image}');">
@@ -33,10 +33,10 @@ function pastWorkshops(workshop) {
             </a>
             </div>
         </li>
-        `;
-    }
+        `
+}
   
   document.getElementById("past").innerHTML = `
-  ${pastWorkshopData.map(pastWorkshops).join("")}
+  ${pastWorkshopData.map(pastWorkshops).join('')}
   <p>There are ${pastWorkshopData.length} workshops.</p>
-`;
+`
