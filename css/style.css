@@ -1550,9 +1550,30 @@ a.site-logo {
   /* navbar css for mobile end */
 }
 /* mobile breakpoint end */
+.link-bar{
+  width: 80vw;
+  justify-content: space-between;
+
+
+}
+
 .red-link {
   color: #ec3750 !important;
   font-weight: 500 !important;
+  border-radius: 15px;
+  /* border: 1px solid !important; */
+  padding: 5px 10px;
+  align-items: inline;
+  
+}
+.red-link:hover{
+   color: #fff !important; 
+  background-color: #ec3750;
+  border-radius: 20px;
+  padding: 5px 10px;
+
+  
+
 }
 
 .grow-header {
