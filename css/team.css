@@ -200,21 +200,3 @@ h1.css-qgkf1l{
   padding: 15px;
   transition: 0.5s ease-out;
 }
-
-/* .ghulam{
-  transform: rotate(360deg); 
-  transition: 2s;
-  transform-origin: left top
-} */
-
-@keyframes roll {
-  from { transform: rotate(0deg) }
-  to   { transform: rotate(360deg) }
-}
-
-.ghulam {
-  animation-delay: 3s;
-  animation-name: roll;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
