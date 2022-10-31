@@ -7,3 +7,4 @@ Hacktoberfest PR :
 Affan Yousuf
 Antara Pal
 Md Zubair Alam
+Akshay Kumar
